@@ -11,8 +11,9 @@ let handler = async(m, { conn }) => {
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Pulsa : 085730903853
-GoPay: 085730903853
+Pulsa : 083117436733
+Dana: 083117436733
+Saweria: http://Saweria.co/Mayumi
 `.trim()
     const button = {
         buttonText: 'List Harga',
