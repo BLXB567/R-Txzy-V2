@@ -413,7 +413,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: 'DVT',
                   thumbnail: poi
                 }
               }}) 
@@ -421,9 +421,9 @@ module.exports = {
           }
           break
       case 'promote':
-        text = (chat.sPromote || this.spromote || conn.spromote || '@user sekarang Admin')
+        text = (chat.sPromote || this.spromote || conn.spromote || '@user selamat si beban udh jadi suhu 😄')
       case 'demote':
-        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user sekarang bukan Admin')
+        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user wah si suhu turun pangkat 😉')
         text = text.replace('@user', '@' + participants[0].split`@`[0])
         if (chat.detect) this.sendMessage(jid, text, MessageType.extendedText, {
           contextInfo: {
